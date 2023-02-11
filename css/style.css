@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+
+    --font-regular: 400;
+    --font-semibold: 600;
+
+}
+
+body {
+    font-family: "Bai Jamjuree";
+
+}
+
+.buttton-style {
+    border: 0;
+    outline: 0;
+    padding: 0.9rem 2.2rem;
+    border-radius: 3rem;
+    background-color: var(--Light-Blue);
+    font-size: 1.05rem;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 1.8rem;
+    position: relative;
+}
+
+.hero-section>img:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero-section>h1 {
+    font-size: 2.4rem;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+}
+
+.hero-section>p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+
+}
+
+.hero-section>img:nth-of-type(2) {
+    width: 7rem;
+}
+
+.hero-section>div {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.hero-section>div>button:nth-of-type(1) {
+    background-color: var(--Strong-Cyan);
+}
+
+
+
+
+.middle-section>h3 {
+    font-size: 2.4rem;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+}
+
+.middle-section>p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+}
+
+.middle-section>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 2rem, 3rem;
+}
+
+.middle-section>div>p {
+    font-size: 2.4rem;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+
+}
+
+.outter-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.outter-div>img {
+    width: 600px;
+}
+
+.inner-div {
+
+    padding: 5rem;
+    text-align: left;
+}
+
+.inner-div>div {
+
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.9rem;
+
+}
+
+.inner-div>div>h3 {
+    color: var(--Dark-Grayish-Blue);
+}
+
+.inner-div>div>p {
+    font-size: 1.1rem;
+
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+}
+
+.second-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 1.8rem;
+    position: relative;
+
+}
+
+.second-last>h3 {
+    font-size: 2.4rem;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+
+}
+
+.second-last>p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+}
+
+.second-last>img:nth-of-type(1) {
+    padding: 2rem;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1.8rem;
+    position: relative;
+}
+
+.last-section>h3 {
+    font-size: 2.4rem;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+
+}
+
+.last-section>p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+
+}
+
+.last-section>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+    padding: 0 3rem 0 3rem;
+
+}
+
+.last-section>div>div>h3 {
+    color: var(--Dark-Grayish-Blue);
+
+}
+
+.last-section>div>div>p {
+    color: var(--Grayish-Blue);
+}
+
+
+.logo-section>div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem;
+    justify-content: space-evenly;
+    padding: 1.5em;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 1.8rem;
+}
+
+.bottom-section>h2 {
+    font-size: 2.4rem;
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+
+}
+
+.bottom-section>p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+}
+
+.bottom-section>div {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.bottom-section>div>button:nth-of-type(1) {
+    background-color: var(--Strong-Cyan);
+}
+
+footer>div {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 1rem;
+    padding: 2rem 4rem;
+    background-color: rgb(210, 243, 236);
+    padding-right: 2rem, 3rem;
+    justify-content: space-between;
+
+}
+
+.footer-div>img {
+    width: 6rem;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 3rem;
+    width: 50vh;
+    color: var(--Grayish-Blue);
+}
+
+.f3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    text-align: center;
+    gap: 3rem;
+    width: 50vh;
+}
+
+/* media-query */
+
+@media screen and (max-width : 500px) {
+    .hero-section {
+        background-color: greenyellow;
+        text-align: center;
+        padding: 7rem 3rem;
+    }
+
+    .hero-section>div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .outter-div>img {
+        height: 300px;
+        width: 400px;
+
+    }
+
+    .middle-section {
+        padding: 3rem 3rem;
+    }
+
+    .outter-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-div>div {
+        background-color: yellowgreen;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inner-div>div>p {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .second-last>img {
+        height: 260px;
+        width: 450px;
+    }
+    .second-last{
+        text-align: center;
+        padding: 7rem 3rem;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .last-section > div > div  {
+        background-color: violet;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+}
